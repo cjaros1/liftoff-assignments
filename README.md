@@ -1,27 +1,27 @@
-# Capstone Project Plan
+# Liftoff Assignments
 
-## Overview
-My project will be a program that keeps track of foods and ingredients, among other things, involved with the prepper at a Bread Co. restaurant. It will list all prepped foods and all ingredients involved in prepping in a database and the user will be able to enter each food item prepped, and which ingredients they used for it, as they prep it so that anyone else at any other station in the restaurant can know what has been prepped and what is waiting to be prepped. It will also keep track of expiration dates/times and the timing of the prepping of each item. An additional feature would be an algorithm to help the prepper determine which foods need to be prepped first vs which ones have a lower priority to be prepped.
+This repository is the base repo for all assignments in LaunchCode's [Liftoff](http://education.launchcode.org/liftoff/) course.
 
+## Getting Started
 
-## Features
-User login (will be the same as the clock in feature using the same employee id and password)
+If you are enrolled in the Liftoff program, fork this repository and then clone it to your computer. Have a look through the directories. Each one corresponds to an assignment, and the README will provide additional details on the tasks to be carried out.
 
-List items (list all items needing to be prepped by the prepper)
+### Add your repository to the Liftoff index
 
-List ingredients (listing all ingredients the prepper will need to use)
+Open `LEARNERS.md` and add your repository below heading for your Liftoff section. Your link should look like the following example, with appropriate substitutions:
 
-Prep count (first thing every day the prepper will count what's already been prepped from the day before and this will give the prepper a list of which items will be needed and how many of each) Optional addition to this feature: (this will also possibly be where the program calculates which items have highest priority to prep and which have lowest.)
+```md
+[LAST_NAME, FIRST_NAME (@GITHUB_USERNAME)](https://github.com/GITHUB_USERNAME/liftoff)
+```
 
-Start Prep Item (the prepper will use this feature each time they start prepping a new item. It will start timing how long they take to prep and list how many they need to prep, how long it should take to prep that amount, the ingredients they need and how many of each ingredient they should use, and possibly a brief step by step on how to prep that item)
+> The file `LEARNERS.md`, and many of those you'll be working in, are written in a markup language called Markdown. If you're new to markdown, read and bookmark [GitHub's Markdown Guide](https://guides.github.com/features/mastering-markdown/).
 
-Finish Prep item (the prepper will use this feature once they are done prepping each item. It will record the time it took for the prepper to prep that item, it will record the amount of ingredients used for that item, and will also update the expiration date/time for those items)
+Once you've added your link to the learners index, you should stage, commit, and push your changes.
 
+### Make a pull request
 
-## Technologies
-HTML/CSS
-Javascript
-MYSQL
+Visit your repo page on GitHub and submit a pull request to the **upstream** repository. The upstream repository is the original repo under the LaunchCodeEducation organization that you forked from.
 
-## What I'll Have to Learn
-I will have to learn how to effectively put these Technologies together in order to make it work as well as make it a program that would be close to how they would expect me to program it in the real world.
+Read and follow the steps in the [GitHub Help article on creating a pull request](https://help.github.com/articles/creating-a-pull-request/).
+
+Your request will be merged by a LaunchCode staff member, and then your addition will be part of the main repository.
